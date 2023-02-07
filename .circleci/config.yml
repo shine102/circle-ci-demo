@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           name: "Print env"
-          command: "echo ${Env_Var}"
+          command: echo $Env_Var
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
